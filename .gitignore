@@ -1,0 +1,63 @@
+# Flutter & Dart
+*.dart.js
+*.js.map
+*.part.js
+*.dart.precompiled
+
+# Android
+android/**/gradle/wrapper/gradle-wrapper.jar
+android/.gradle/
+android/captures/
+android/local.properties
+android/**/build/
+android/**/.externalNativeBuild/
+android/**/.cxx/
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/App.framework/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/Flutter/Debug.xcconfig
+ios/Flutter/Release.xcconfig
+
+# macOS
+macos/Flutter/ephemeral/
+
+# Linux
+linux/flutter/ephemeral/
+
+# Windows
+windows/flutter/ephemeral/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Build outputs
+build/
+*.apk
+*.app
+*.deb
+*.dmg
+*.exe
+*.msi
+*.rpm
+
+# Misc
+.DS_Store
+*.swp
+*~
+
+# Coverage
+coverage/
+
+# Symbolication
+app.*.symbols
+
+# Obfuscation
+app.*.map.json

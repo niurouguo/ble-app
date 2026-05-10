@@ -1,0 +1,20 @@
+name: ble_app
+description: A BLE app for reading temperature, humidity and medicine remaining
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_blue_plus: ^1.32.0
+  permission_handler: ^11.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
